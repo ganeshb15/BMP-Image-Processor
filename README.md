@@ -140,4 +140,26 @@ clean:
      ./out2
      ```
 
+
+# Sample BMP Image Processing
+
+## Sample Input and Output
+
+### Input BMP File
+- **Filename:** `input_image.bmp`
+- **Description:** This is the original BMP image that will be processed. The image is in 24-bit color depth and contains a variety of colors.
+
+![Input Image](Aishu_didi.bmp)
+
+### Output BMP File
+- **Filename:** `out.bmp`
+- **Description:** This is the processed BMP image resulting from applying the thresholding logic. Pixels with RGB values above 150 are set to white, while others are set to black.
+
+![Output Image](out.bmp)
+
+## How to Test the Process
+1. Place your input BMP file named `input_image.bmp` in the same directory as the program.
+2. Run the program to generate the output file.
+3. Check the directory for the new file named `out.bmp`, which will contain the processed image.
+
 This will process the BMP file and apply the thresholding logic you implemented, writing the resulting image to `out.bmp`.
